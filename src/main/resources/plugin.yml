@@ -1,0 +1,5 @@
+name: SimpleWorldGenerator
+main: com.orang3i.SimpleWorldGenerator
+version: 1.0
+author: Orang3i
+description: A simple Lumen plugin
