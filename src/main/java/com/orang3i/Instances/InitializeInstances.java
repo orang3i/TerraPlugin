@@ -1,21 +1,28 @@
 package com.orang3i.Instances;
 
 import com.orang3i.Generators.MainGenerator;
+import net.lumen.LumenServer;
 import net.minestom.server.coordinate.Pos;
 import net.minestom.server.entity.GameMode;
 import net.minestom.server.entity.Player;
+import net.minestom.server.event.GlobalEventHandler;
 import net.minestom.server.event.player.AsyncPlayerConfigurationEvent;
 import net.minestom.server.instance.Chunk;
+import net.minestom.server.instance.InstanceContainer;
+import net.minestom.server.instance.InstanceManager;
 import net.minestom.server.instance.LightingChunk;
 
 import java.util.ArrayList;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.BiConsumer;
 
-import static com.orang3i.Instances.InstanceCreator.globalEventHandler;
-import static com.orang3i.Instances.InstanceCreator.instanceContainer;
 
 public class InitializeInstances {
+
+    public static InstanceManager instanceManager = LumenServer.getServer().getInstanceManager();
+    public static InstanceContainer instanceContainer = instanceManager.createInstanceContainer();
+    public static GlobalEventHandler globalEventHandler = LumenServer.getGlobalEventHandler();
+
 
     public static void initialize() {
         instanceContainer.setGenerator(new MainGenerator());
