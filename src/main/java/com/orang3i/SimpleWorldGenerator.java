@@ -17,6 +17,7 @@ public class SimpleWorldGenerator extends Plugin {
         InstanceCreator.create();
         InitializeInstances.initialize();
         LOGGER.info("SimpleWorldGenerator is enabled :)");
+        //test
     }
 
     @Override
