@@ -1,2 +1,2 @@
-rootProject.name = "SimpleWorldGenerator"
+rootProject.name = "TerraPlugin"
 

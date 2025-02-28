@@ -1,5 +1,5 @@
-name: SimpleWorldGenerator
-main: com.orang3i.SimpleWorldGenerator
+name: Tera
+main: com.orang3i.Terra
 version: 1.2
 author: orang3i
 description: A simple Lumen plugin
