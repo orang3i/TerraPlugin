@@ -2,6 +2,7 @@ package com.orang3i.Instances;
 
 import com.orang3i.Generators.MainGenerator;
 import net.lumen.LumenServer;
+import net.minestom.server.MinecraftServer;
 import net.minestom.server.coordinate.Pos;
 import net.minestom.server.entity.GameMode;
 import net.minestom.server.entity.Player;
@@ -19,9 +20,9 @@ import java.util.function.BiConsumer;
 
 public class InitializeInstances {
 
-    public static InstanceManager instanceManager = LumenServer.getServer().getInstanceManager();
+    public static InstanceManager instanceManager = MinecraftServer.getInstanceManager();
     public static InstanceContainer instanceContainer = instanceManager.createInstanceContainer();
-    public static GlobalEventHandler globalEventHandler = LumenServer.getGlobalEventHandler();
+    public static GlobalEventHandler globalEventHandler = MinecraftServer.getGlobalEventHandler();
 
 
     public static void initialize() {
