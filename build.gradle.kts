@@ -24,10 +24,9 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    compileOnly(files("C:\\Users\\orang\\IdeaProjects\\Lumen\\build\\libs\\LumenServer.jar"))
     implementation("de.articdive:jnoise-pipeline:4.1.0")
     implementation("com.dfsek.terra:minestom:6.6.0-BETA+810d10ac0")
-
+    compileOnly(files("C:\\Users\\orang\\IdeaProjects\\Lumen\\build\\libs\\LumenServer.jar"))
 }
 
 tasks.test {

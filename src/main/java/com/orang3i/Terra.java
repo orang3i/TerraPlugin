@@ -3,25 +3,25 @@ package com.orang3i;
 import com.orang3i.Instances.InitializeInstances;
 import com.orang3i.Player.PlayerHandler;
 import net.lumen.plugin.Plugin;
-
-import java.util.logging.Logger;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 
 public class Terra extends Plugin {
 
-    private static final Logger LOGGER = Logger.getLogger("Tera");
+    private static final Logger LOGGER = LoggerFactory.getLogger(Terra.class);
 
     @Override
     public void onEnable() {
 
         InitializeInstances.getInstance().initialize();
         PlayerHandler.handlePlayer();
-        LOGGER.info("Tera is enabled!!!!");
+        LOGGER.info("Terra is enabled!!!!");
         //plugin enabled!!!
     }
 
     @Override
     public void onDisable() {
-        LOGGER.info("Tera is disabled");
+        LOGGER.info("Terra is disabled");
     }
 
 
