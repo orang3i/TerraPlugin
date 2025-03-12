@@ -1,8 +1,8 @@
 package com.orang3i;
 
+import com.lumenmc.plugin.Plugin;
 import com.orang3i.Instances.InitializeInstances;
 import com.orang3i.Player.PlayerHandler;
-import net.lumen.plugin.Plugin;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 

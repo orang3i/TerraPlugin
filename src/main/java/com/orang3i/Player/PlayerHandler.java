@@ -1,7 +1,6 @@
 package com.orang3i.Player;
 
 import com.orang3i.Instances.InitializeInstances;
-import com.orang3i.Terra;
 import net.minestom.server.coordinate.Pos;
 import net.minestom.server.entity.GameMode;
 import net.minestom.server.entity.Player;

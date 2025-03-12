@@ -13,7 +13,6 @@ import net.minestom.server.instance.LightingChunk;
 public class InitializeInstances {
 
     private static InitializeInstances instance;
-
     public  InstanceManager instanceManager;
     public  static InstanceContainer instanceContainer;
     public  GlobalEventHandler globalEventHandler;
